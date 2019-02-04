@@ -37,5 +37,4 @@ switch ($a) {
     break;
   default:
     echo "a = $a не входит в [0; 15]";
-    break;
 }
