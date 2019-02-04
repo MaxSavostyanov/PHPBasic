@@ -10,5 +10,4 @@ function power($val, $pow)
   }
 }
 
-
 echo "2 ^ 10 = " . power(2, 10);
