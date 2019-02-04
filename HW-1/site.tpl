@@ -1,23 +1,16 @@
-<?
-$h1 = "Информация обо мне";
-$title = "Главная страница - страница обо мне";
-$year =  date('Y');
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title><?=$title;?></title>
-  <meta charset="UTF-8">
+    <title>{{TITLE}}</title>
+    <meta charset="UTF-8">
 </head>
 <body>
-Вариант 1
-<h1><?=$h1;?></h1>
+<h1>{{HEADING}}</h1>
 Краткая биография обо мне<br>
 Родился в 1990 году в городе Волгоград. Закончил в 2013 году НИУ МЭИ.<br>
 На данный момент учусь в <b>GeekUniversity</b> на факультете Веб-разработки.
 <br><br>
 
-<?=$year;?>
+{{YEAR}}
 </body>
 </html>
