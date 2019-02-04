@@ -16,11 +16,7 @@ function multi($a, $b)
 
 function div($a, $b)
 {
-  if ($b !== 0) {
-    return round($a / $b, 2);
-  } else {
-    return "Ошибка: деление на ноль!";
-  }
+  return $b !== 0 ? $a / $b : "Ошибка: деление на ноль!";
 }
 
 function mathOperation($arg1, $arg2, $operation)
